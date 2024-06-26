@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Chức năng: ">
+        <menu>
+            <item android:id="@+id/mSach"
+                android:title="SÁCH"
+                android:icon="@drawable/book100"/>
+            <item android:id="@+id/mLoaisach"
+                android:title="LOẠI SÁCH"
+                android:icon="@drawable/category"/>
+            <item android:id="@+id/mLspm"
+                android:title="LỊCH SỬ PHIẾU MƯỢN"
+                android:icon="@drawable/history"/>
+            <item android:id="@+id/mThongke"
+                android:title="THÔNG KÊ"
+                android:icon="@drawable/analytics"/>
+            <item android:id="@+id/mTaopm"
+                android:title="QUẢN LÝ PHIẾU MƯỢN"
+                android:icon="@drawable/create64"/>
+
+        </menu>
+    </item>
+    <item android:title="Khác : ">
+        <menu>
+            <item android:id="@+id/mOption"
+                android:title="Cài đặt"
+                android:icon="@drawable/gear100"/>
+            <item android:id="@+id/mDangxuat"
+                android:title="Đăng xuất"
+                android:icon="@drawable/logout96"/>
+        </menu>
+    </item>
+</menu>
